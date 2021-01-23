@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Recent">
+            <menu>
+                <item
+                    android:id="@+id/searches"
+                    android:title="Searches"
+                    android:icon="@drawable/ic_search_black_24dp"/>
+
+
+            </menu>
+        </item>
+        <item
+            android:title="Policies">
+            <menu>
+                <item
+                    android:title="Policies"
+                    android:icon="@drawable/policies"/>
+            </menu>
+        </item>
+        <item
+            android:title="Document">
+            <menu>
+                <item
+                    android:title="Document"
+                    android:icon="@drawable/file"/>
+            </menu>
+        </item>
+        <item
+            android:title="Corporate">
+            <menu>
+                <item
+                    android:title="Corporate connect"
+                    android:icon="@drawable/crporate"/>
+            </menu>
+        </item>
+        <item
+            android:title="Claims">
+            <menu>
+                <item
+                    android:title="Claims"
+                    android:icon="@drawable/claims"/>
+                <item
+                    android:title="Claim Awareness"
+                    android:icon="@drawable/awareness"
+                    />
+            </menu>
+        </item>
+        <item
+            android:title="Vehicle">
+            <menu>
+                <item
+                    android:title="Vehicles"
+                    android:icon="@drawable/vahicle"/>
+                <item
+                    android:title="Add a vehicle"
+                    android:icon="@drawable/add_car"/>
+            </menu>
+        </item>
+        <item
+            android:title="Help">
+            <menu>
+                <item
+                    android:title="Recent Quaries"
+                    android:icon="@drawable/recent_query"/>
+                <item
+                    android:title="Raise a Query"
+                    android:icon="@drawable/raise_query"
+                    />
+                <item
+                    android:title="Request a Callback"
+                    android:icon="@drawable/call_sign"/>
+            </menu>
+        </item>
+        <item
+            android:title="Settings">
+            <menu>
+                <item
+
+                    android:title="Communication Preferences"
+                    android:icon="@drawable/ic_home_black_24dp"/>
+
+            </menu>
+        </item>
+
+            <item
+                android:title="Other">
+                <menu>
+                    <item
+                        android:title="Our Partner"
+                        android:icon="@drawable/our_partner"
+                        />
+                    <item
+                        android:title="Legal Information"
+                        android:icon="@drawable/legal_infoemation"
+
+                        />
+                    <item
+                        android:title="About"
+                        android:icon="@drawable/about"
+                        />
+                    <item
+                        android:title="Logout"
+                        android:icon="@drawable/logout"
+                        />
+
+                </menu>
+            </item>
+
+
+
+    </group>
+
+</menu>

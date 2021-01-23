@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF0EC"
+    tools:context=".home_Fragment"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034">
+
+        <GridLayout
+            android:layout_width="345dp"
+            android:layout_height="236dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:columnCount="3"
+            android:rowCount="2"
+
+
+            >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="115dp"
+                android:layout_height="125dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/travel_insuarance"
+                android:drawablePadding="2dp"
+                android:shadowRadius="0"
+                android:text="Travel Insuarance"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/health_insuarance"
+                android:shadowRadius="0"
+                android:text="Health        Insuarance"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:layout_row="0"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/term_life_insuarance"
+                android:shadowRadius="0"
+                android:text="Term Life     Insuarance"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="115dp"
+                android:layout_height="124dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/car_insuarance"
+                android:shadowRadius="0"
+                android:text="Car         Insuarance"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="115dp"
+                android:layout_height="124dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/investment_plan"
+                android:shadowRadius="0"
+                android:text="Investment    Plans"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="115dp"
+                android:layout_height="123dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/international_money_transfer"
+                android:shadowRadius="0"
+                android:text="International Money  Transfer"
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+
+
+        </GridLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/see_more"
+        android:layout_width="123dp"
+        android:layout_height="49dp"
+        android:background="@drawable/ic_crop_7_5_black_24dp"
+        android:text="see more"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:background="#EC9073"
+        android:id="@+id/reminder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/see_more"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        tools:ignore="InvalidId"
+        app:cardCornerRadius="12dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/clock_image"
+                android:layout_width="76dp"
+                android:layout_height="62dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="6dp"
+                android:src="@drawable/reminder_image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="3dp"
+                android:text="Check Out Reminders"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="94dp"
+                android:layout_marginLeft="94dp"
+                android:layout_marginTop="35dp"
+                android:text="To ensure you meet your financial duties on time."
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="276dp"
+                android:layout_marginLeft="276dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="61dp"
+                android:gravity="end"
+                android:text="EXPLORE >"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </RelativeLayout>
+       </androidx.cardview.widget.CardView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reminder">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="76dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/reminder_image" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="12dp"
+                    android:text="COVID TIPS TO REMEMBER"
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="SET REMINDER"
+                    android:textColor="#2196F3"
+                    android:textColorHighlight="#2196F3"
+
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="76dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/reminder_image" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="COVID TIPS TO REMEMBER"
+                    android:textColor="@android:color/black"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="SET REMINDER"
+                    android:textColor="#2196F3"
+                    android:textColorHighlight="#2196F3"
+
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="12dp">
+
+                <ImageView
+                    android:layout_width="76dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="10dp"
+
+                    android:src="@drawable/reminder_image" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="12dp"
+                    android:text="COVID TIPS TO REMEMBER"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="SET REMINDER"
+                    android:textColor="#2196F3"
+                    android:textColorHighlight="#2196F3"
+
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="328dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/InsHealth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

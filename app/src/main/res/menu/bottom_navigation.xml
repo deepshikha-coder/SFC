@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/nav_MyPolicies"
+        android:icon="@drawable/policies"
+        android:title="My Policies"
+        android:enabled="true"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/nav_Calculator"
+        android:visible="true"
+        android:icon="@drawable/calculator_sign"
+        android:title="Financial Calculator"
+        />
+    <item
+        android:id="@+id/nav_Account"
+        android:visible="true"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/my_account"/>
+
+
+</menu>

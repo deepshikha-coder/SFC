@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957124851921",
+    "firebase_url": "https://sfc-financial.firebaseio.com",
+    "project_id": "sfc-financial",
+    "storage_bucket": "sfc-financial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957124851921:android:e378fe1079fd93f827adf0",
+        "android_client_info": {
+          "package_name": "deepshikha.jangidyahoo.sfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957124851921-9192o8ni9ombscafb6q2e6ud3j5g89rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzQuzxZ5Nh1MzTGHfAYljYYRGMAogzazo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957124851921-9192o8ni9ombscafb6q2e6ud3j5g89rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
