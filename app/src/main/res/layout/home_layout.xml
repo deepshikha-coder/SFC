@@ -199,8 +199,8 @@
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="398dp"
+        android:layout_height="85dp"
         android:scrollbars="none"
         app:layout_constraintEnd_toEndOf="parent"
 
